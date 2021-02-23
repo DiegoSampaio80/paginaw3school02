@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 2px 0px;
+/*     border: 2px solid #fff; */
+}
+body{
+    width: 98.25%;
+    height: 99%;
+    background-color: #d14836;
+    padding: 0px 0px 0px 20px; 
+}
+header{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+h1{
+    font-size: 75px;
+}
+header p{
+    font-size: 35px;
+    margin: 30px 0px;
+}
+main{
+    width: 97.6vw;
+    height: 450px;
+    margin: 0px 0px 0px 0px;
+    background-color: #fff;
+
+/*     border: 3px dashed orange; */
+    font-family: Verdana;
+}
+section{
+   /*  border: 2px solid blueviolet; */
+    width: 300px;
+}
+.navButton{
+    width: 15%;
+    height: 300px;
+    margin: 0px;
+    padding: 18px 0px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    right: 25px;
+}
+.navButton a{
+    margin: 5px;
+    border: 2px solid #d14836;
+    padding: 7px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #d14836;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #ffffff;
+    text-decoration: none;
+}
+.navButton a:hover{
+    background-color: #ffffff;
+    color: #d14836;
+}
+.navButton a:nth-child(2){
+    background-color: #ffffff;
+    color: #d14836;
+}
+.styles{
+    width: 1280px;
+    right: 280px; 
+    background-color: #fff;
+    padding: 20px 0px 0px 15px;
+}
+.styles h2{
+    padding: 10px 0px 20px 0px;
+    font-size: 32px;
+    color: #d14836;  
+}
+.linksStyle a{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color: #d14836;
+
+}
+.linksStyle a:hover{
+    text-decoration: underline;
+}
+.noStyle{
+    width: 79.15vw;
+    background-color: #fff;
+    padding: 20px 0px 0px 15px;   
+}
+.noStyle h2{
+    padding-bottom: 15px;
+    color: #d14836; 
+}
+.noStyle a{
+    margin: 0px;
+    color: #d14836;
+    text-decoration: none;
+}
+.noStyle a:hover{
+    text-decoration: underline;
+}
+.sideBar{
+    width: 97.6vw;
+    height: 110px;
+    margin: 0px;
+    background-color: #F6DAD7;
+    padding: 20px 0px 20px 0px;
+    font-family: Arial;
+    color: #d14836;
+    position: relative;
+    top: 80px;
+    padding: 20px 0px 0px 0px;
+}
+.sideBar p{
+    padding: 20px 0px;
+    font-size: 20px;
+    padding: 15px 0px 10px 15px;
+}
+.sideBar h2{
+    padding: 10px 0px 0px 15px;
+}
+footer{
+    height: 80px;
+    line-height: 25px;
+    color: #fff;
+    text-align: center;
+    text-justify: justi;
+    margin: 20px;
+    padding: 4px;
+    font-size: 14px;
+    font-family: Arial;
+}    

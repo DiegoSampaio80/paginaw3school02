@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+/*     border: 2px solid orange; */
+}
+body{
+    background-color: #000000;
+    font-family: 'Courier New';
+    color: #84c754;
+    font-size: 20px;
+    margin: 25px 30px;
+    padding: 10px;
+}
+main{
+    display: flex;
+}
+ul{
+    margin: 43px 30px;  
+}
+
+li{
+   padding: 5px;  
+}
+.menuBar li a{
+    color:#84c754;
+    text-decoration: none;
+}
+.colorWhite{
+    font-weight: bold;
+    color: #ffffff;
+}
+.colorWhite:nth-last-child(1){
+    color: white;
+}
+.menuBar a:hover{
+    color: white;
+}
+.article h2{
+    margin: 30px 0px 30px 0px;
+    padding-bottom: 0px;
+    font-size: 40px;
+}
+.article p{
+    line-height: 30px;
+}
+.article a{
+    color: white;
+    text-decoration: underline;
+}
+.article a:hover{
+    color:#84c754;
+ 
+}
+.noStyle{
+    font-size: 29px !important;
+    font-weight: bold !important;
+    margin-top: 10px;
+}
+.sideBar{
+    display: inline;
+    position: absolute;
+    width: 410px;
+    height: 190px;
+    left: 1135px;
+    top: 120px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+}
+.sideBar h2{
+    font-size: 19px;
+    padding: 10px 0px 30px 0px;
+}
+.sideBar p{
+    line-height: 25px;
+}
+footer{
+    margin: 40px 0px 40px 0px;
+    border-radius: 5px;
+    border:2px solid white;
+    padding: 5px;
+    font-size: 13px;
+    color: white;
+    line-height: 20px;
+    text-indent: 15px;
+    text-align: justify;
+}
